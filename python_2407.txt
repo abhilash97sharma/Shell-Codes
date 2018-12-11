@@ -1,0 +1,1 @@
+FOR /L %N IN (1,0,100) DO (@python D:\itc_tb04\code\logs_to_data_by_date.py & timeout /T 10)
